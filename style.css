@@ -42,7 +42,7 @@ main{
     /* margin: 0 auto; */
 }
 #mission-section{
-    background-image: url(./Background.jpeg);
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*mp4bso*_ga*MjQ2Mjg4OTQ3LjE2NDgxODY0NDM.*_ga_3LRZM6TM9L*MTY2MDc1OTI1OS44OS4xLjE2NjA3NjI2MzMuMzIuMC4w");
     height: 700px;
     max-width: 1200px;
     display: flex;
@@ -103,7 +103,7 @@ figure{
     flex-basis: 300px;
 }
 #locations{
-    background-image: url(./Pictures/Locations.jpeg);
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*97avn1*_ga*MjQ2Mjg4OTQ3LjE2NDgxODY0NDM.*_ga_3LRZM6TM9L*MTY2MDc1OTI1OS44OS4xLjE2NjA3NjI2MzMuMzIuMC4w");
     height: 600px;
     max-width: 1200px;
     margin: 0 auto;
