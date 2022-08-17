@@ -42,7 +42,7 @@ main{
     /* margin: 0 auto; */
 }
 #mission-section{
-    background-image: url(./Pictures/Background.jpeg);
+    background-image: url(./Background.jpeg);
     height: 700px;
     max-width: 1200px;
     display: flex;
