@@ -1,7 +1,4 @@
 
-*{
-    /* opacity: 0.9; */
-}
 body{
     font-size: 22px;
     font-family: Helvetica;
@@ -11,7 +8,7 @@ body{
 header{ 
     display: flex;
     width: 100%;
-    height: 69px;
+    min-height: 69px;
     border-bottom: 1px solid seashell;
     justify-content: space-between;
     position:fixed;
@@ -51,11 +48,14 @@ main{
     position: relative;
     margin: 0 auto;
     margin-top: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .mission-header{
     background-color: black;
     text-align: center;
-    height: 100px;
+    min-height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,12 +104,15 @@ figure{
 }
 #locations{
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*97avn1*_ga*MjQ2Mjg4OTQ3LjE2NDgxODY0NDM.*_ga_3LRZM6TM9L*MTY2MDc1OTI1OS44OS4xLjE2NjA3NjI2MzMuMzIuMC4w");
-    height: 600px;
+    min-height: 600px;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #locations-main{
     width: 300px;
@@ -119,7 +122,8 @@ figure{
     flex-direction: column;
     justify-content: center;
     background-color: hsla(0,0%,0%,1);
-    margin: 0 20px;
+    margin: 20px 20px;
+    opacity: 1;
 }
 .locations-header h2{
     margin-bottom: 15px;
@@ -128,6 +132,8 @@ figure{
 .locations-all{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .contact{
     width: 100%;
@@ -145,6 +151,8 @@ footer{
 a{
     text-decoration: none;
 }
+
+
 
 
 
