@@ -24,11 +24,12 @@ header{
 }
 #navmenu{
     display: flex;
-    max-height: 69px;
+    min-height: 69px;
     width: 350px;
     align-items: center;
     justify-content: space-around;
     padding: 0 10px; 
+    flex-wrap: wrap;
 }
 a{
     color: seashell;
